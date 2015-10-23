@@ -12,3 +12,4 @@ catalog.xml
 .idea
 .bundle
 Gemfile.lock*
+/build/

@@ -23,7 +23,7 @@ group :development do
 end
 
 if jruby_rack_version = ENV['JRUBY_RACK_VERSION']
-  gem 'jruby-rack', jruby_rack_version, :require => false
+  gem 'jruby-rack', jruby_rack_version, :require => false, :git => 'https://github.com/jruby/jruby-rack.git'
 end
 
 group :integration do
